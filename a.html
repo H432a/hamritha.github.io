@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamritha V - Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome Icons for Social Links -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #e6f7ff; /* Pale blue background */
+    }
+    .banner {
+      background-color: #dedadaa0;
+      padding: 40px 0;
+    }
+    .banner h1 {
+      font-weight: 600;
+      color: #4e4e4e;
+    }
+    .banner p {
+      font-weight: 400;
+      color: #7a7a7a;
+    }
+    .nav-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 30px;
+    }
+    .nav-links li {
+      font-size: 18px;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: #4e4e4e;
+    }
+    .nav-links a:hover {
+      color: #007bff;
+    }
+    .contact-icons a {
+      color: #007bff;
+      margin-left: 15px;
+    }
+    .contact-icons a:hover {
+      color: #0056b3;
+    }
+    .card {
+        margin-bottom: 10px;
+        border-radius: 15px; /* Increase the border-radius for more rounded edges */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for pop-out effect */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    }
+
+    .card:hover {
+        transform: translateY(-5px); /* Slightly lift the card on hover */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    }
+
+    .card:nth-child(odd) {
+      background-color: #fdf6e3; /* Light beige */
+      color: #5a3e1b; /* Brown text */
+    }
+    .card:nth-child(even) {
+      background-color: #ffffff; /* Darker beige */
+      color: #000; /* Black text */
+    }
+    .section-heading {
+      margin-bottom: 30px;
+      font-weight: 600;
+      color: #4e4e4e;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Banner Section -->
+  <section class="banner">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1>Hamritha V</h1>
+          <p>BTech Computer Science and Engineering | IoT Specialist</p>
+        </div>
+        <div class="col-md-5 text-md-end">
+          <!-- Navigation Links -->
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+          </ul>
+          <!-- Contact Icons -->
+          <div class="contact-icons">
+            <a href="mailto:hamrithav3@gmail.com" class="fas fa-envelope"></a>
+            <a href="https://www.linkedin.com/in/hamritha-v-0064342b3" class="fab fa-linkedin"></a>
+            <a href="https://github.com/H432a" class="fab fa-github"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="section-heading">About Me</h2>
+      <div class="card p-3">
+        <p>
+          Hi there! I'm Hamritha, a fervent technologist and an aspiring full-stack developer currently pursuing my B.Tech in CSE (IoT) from SNU Chennai.
+          I enjoy Competitive Programming, exploring algorithms, and creating impactful solutions that seamlessly integrate the physical and digital worlds.
+          Beyond coding, I love participating in hackathons, collaborating with peers, and exploring unique problem statements that challenge conventional thinking. My curiosity drives me to continuously learn and adapt, embracing emerging trends in technology.
+          When I’m not immersed in coding or project development, I enjoy mentoring peers, sharing knowledge, and contributing to open-source communities. My ultimate goal is to contribute meaningfully to projects that make a positive impact on society, leveraging technology to drive innovation and inclusivity.
+        </p>
+      </div>
+    </div>
+  </section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="section-heading text-center mb-5">Projects</h2>
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="card h-100" style="background-color: #ffffff; color: #4e4e4e;">
+            <div class="card-body">
+              <h5 class="card-title">CropCare - AI Driven Crop Disease Prediction and Management System</h5>
+              <p class="card-text">
+                Built a system to predict diseases in cotton plants using environmental data and sensors for early detection.
+              </p>
+              <div class="mt-3">
+                <span class="badge rounded-pill bg-light text-dark me-2">XG Boost</span>
+                <span class="badge rounded-pill bg-light text-dark me-2">Django</span>
+                <span class="badge rounded-pill bg-light text-dark me-2">IoT</span>
+              </div>
+              <br>
+              <a href="https://github.com/H432a/Cotton_cure" class="btn btn-outline-dark">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="card h-100" style="background-color: #ffffff; color: #1c1c1c;">
+            <div class="card-body">
+              <h5 class="card-title">IoT Based Voice Controlled Home Automation</h5>
+              <p class="card-text">
+                Created a voice-controlled IoT system with real-time control using Arduino and Bluetooth for home automation.
+              </p>
+              <div class="mt-3">
+                <span class="badge rounded-pill bg-light text-dark me-2">Arduino</span>
+                <span class="badge rounded-pill bg-light text-dark me-2">Bluetooth</span>
+                <span class="badge rounded-pill bg-light text-dark me-2">IoT</span>
+              </div>
+              <br>
+              <a href="https://github.com/H432a/IoT-home-automation" class="btn btn-outline-dark">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="card h-100" style="background-color: #ffffff; color: #4e4e4e;">
+            <div class="card-body">
+              <h5 class="card-title">CarBook - Car Rental Management System</h5>
+              <p class="card-text">
+                Developed a system for managing car rentals with dynamic pricing using machine learning.
+              </p>
+              <div class="mt-3">
+                <span class="badge rounded-pill bg-light text-dark me-2">Machine Learning</span>
+                <span class="badge rounded-pill bg-light text-dark me-2">Python</span>
+                <span class="badge rounded-pill bg-light text-dark me-2">MySQL</span>
+              </div>
+              <br>
+              <a href="https://github.com/H432a/Vehicle-Rental-and-Services-Management-DBMS" class="btn btn-outline-dark">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="col-md-4">
+          <div class="card h-100" style="background-color: #ffffff; color: #1c1c1c;">
+            <div class="card-body">
+              <h5 class="card-title">Dynamic Memory Allocator</h5>
+              <p class="card-text">
+                Built a dynamic memory allocator in Python with a web interface for memory management.
+              </p>
+              <div class="mt-3">
+                <span class="badge rounded-pill bg-light text-dark me-2">Python</span>
+                <span class="badge rounded-pill bg-light text-dark me-2">Flask</span>
+                <span class="badge rounded-pill bg-light text-dark me-2">Web Development</span>
+              </div>
+              <br>
+              <a href="https://github.com/H432a/dynamic-memory-allocator" class="btn btn-outline-dark">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="col-md-4">
+          <div class="card h-100" style="background-color: #ffffff; color: #4e4e4e;">
+            <div class="card-body">
+              <h5 class="card-title">Fall Detection System</h5>
+              <p class="card-text">
+                Developed a system to detect falls in real-time with 92% accuracy and alert notifications.
+              </p>
+              <div class="mt-3">
+                <span class="badge rounded-pill bg-light text-dark me-2">OpenCV</span>
+                <span class="badge rounded-pill bg-light text-dark me-2">Python</span>
+                <span class="badge rounded-pill bg-light text-dark me-2">Computer Vision</span>
+              </div>
+              <br>
+              <a href="https://github.com/H432a/Fall_detection" class="btn btn-outline-dark">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 6 -->
+        <div class="col-md-4">
+          <div class="card h-100" style="background-color: #ffffff; color: #1c1c1c;">
+            <div class="card-body">
+              <h5 class="card-title">Cafe Chatbot</h5>
+              <p class="card-text">
+                Created a chatbot that provides personalized menu recommendations using Flask.
+              </p>
+              <div class="mt-3">
+                <span class="badge rounded-pill bg-light text-dark me-2">Flask</span>
+                <span class="badge rounded-pill bg-light text-dark me-2">Python</span>
+                <span class="badge rounded-pill bg-light text-dark me-2">Chatbot</span>
+              </div>
+              <br>
+              <a href="https://github.com/H432a/Chatbot" class="btn btn-outline-dark">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  
+
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="section-heading">Technical Skills</h2>
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>Frontend</th>
+            <th>Backend & Database</th>
+            <th>Version Control</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML5</td>
+            <td>Node.js</td>
+            <td>Git</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Express</td>
+            <td>GitHub</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Django</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>React.js</td>
+            <td>Flask</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Next.js</td>
+            <td>MySQL</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Figma</td>
+            <td>LaTeX</td>
+            <td></td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </section>
+  
+
+  <section id="experience" class="py-5">
+    <div class="container">
+      <h2 class="section-heading">Experience</h2>
+      <div class="card p-3" style="background-color: #ffffff; color: #1b1b1b;">
+        <h5>Core Committee Member - Spectre - SNUC Gaming Club</h5>
+        <p><strong>Aug 2024 - Present (4 months)</strong></p>
+        <p>Full-time role with responsibilities in managing and coordinating events and activities for the gaming community at SNUC.</p>
+      </div>
+      <div class="card p-3" style="background-color: #ffffff; color: #1b1b1b;">
+        <h5>Open Source Contributor - GirlScript Summer of Code</h5>
+        <p><strong>Oct 2024 - Nov 2024 (2 months)</strong></p>
+        <p>Contributed to open-source projects as part of the GirlScript Summer of Code, enhancing my coding and collaboration skills while working on impactful community projects.</p>
+      </div>
+      <div class="card p-3" style="background-color: #ffffff; color: #1b1b1b;">
+        <h5>AI & Cloud Intern - Edunet Foundation</h5>
+        <p><strong>Jul 2024 - Aug 2024 (2 months) | Remote</strong></p>
+        <ul>
+          <li>Developed and deployed an AI-powered chatbot using IBM Cloud Platform.</li>
+          <li>Utilized IBM Watson Studio for model building and data visualization, improving data analysis efficiency by 20%.</li>
+          <li>Enhanced model accuracy and reduced training time by 15% through Auto AI automation.</li>
+          <li>Received guidance from industry experts via virtual sessions and masterclasses.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="py-5">
+    <div class="container">
+      <h2 class="section-heading">Certifications</h2>
+      <div class="card p-3">
+        <p>Postman API Essentials Badge</p>
+        <p>Hackerank Problem Solver</p>
+        <p>Hackerank Python Certification</p>
+        <p>Hackfest 3rd Edition, PSG iTech and SAP</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-3 bg-light">
+    <p>&copy; 2024 Hamritha V. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
